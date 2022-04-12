@@ -396,12 +396,20 @@ BodyNode* addBody(
   properties.mRestPositions[0] = default_rest_position;
   properties.mSpringStiffnesses[0] = default_stiffness;
   properties.mDampingCoefficients[0] = default_damping;
+  properties.mVelocityLowerLimits[0] = -1;
+  properties.mVelocityUpperLimits[0] = 1;
+  properties.mIsPositionLimitEnforced = 1;
 
   // Create a new BodyNode, attached to its parent by a RevoluteJoint
-  BodyNodePtr bn = pendulum
+  auto temp = pendulum
                        ->createJointAndBodyNodePair<RevoluteJoint>(
-                           parent, properties, BodyNode::AspectProperties(name))
-                       .second;
+                           parent, properties, BodyNode::AspectProperties(name));
+
+  BodyNodePtr bn = temp.second;
+  RevoluteJoint* jt = temp.first;
+  std::cout << "enforced : " << jt->getRevoluteJointProperties().mIsPositionLimitEnforced << std::endl;
+  std::cout << "lowerlimit : " << jt->getRevoluteJointProperties().mVelocityLowerLimits << std::endl;
+  std::cout << "upperlimit : " << jt->getRevoluteJointProperties().mVelocityUpperLimits << std::endl;
 
   // Make a shape for the Joint
   const double R = default_width / 2.0;
