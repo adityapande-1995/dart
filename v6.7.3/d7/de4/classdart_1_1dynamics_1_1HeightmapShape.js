@@ -70,6 +70,7 @@ var classdart_1_1dynamics_1_1HeightmapShape =
     [ "updateVolume", "d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html#a3256b49ee86135979b9e95f23c3d7db5", null ],
     [ "mBoundingBox", "d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html#a3482c31f2aaf40f450ebac6951bf1033", null ],
     [ "mCounter", "d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html#a37566a2b695189faba091129cab79e94", null ],
+    [ "mDependent", "d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html#a1f3c82c02ec494656d533a73e638576b", null ],
     [ "mHeights", "d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html#a62ad3f9f63af159dd8f8d37693921aec", null ],
     [ "mID", "d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html#acae9d9d1241451e02c61b7fcf2359031", null ],
     [ "mIsBoundingBoxDirty", "d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html#a0be096d66dcee0503f6fe490f442a971", null ],
@@ -81,6 +82,7 @@ var classdart_1_1dynamics_1_1HeightmapShape =
     [ "mType", "d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html#a0c6e8972545c65851285061e11cc6d24", null ],
     [ "mVariance", "d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html#aa4ec0172edc2d98894b5a41228b598a8", null ],
     [ "mVersion", "d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html#a4321e571165126347ea3fa68279dae1d", null ],
+    [ "mVersionChangedSignal", "d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html#aa19fa8177cd7578876cb982c51ed5b72", null ],
     [ "mVolume", "d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html#a0d9eb76ab4c229100cba7ccc833aee0e", null ],
     [ "onVersionChanged", "d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html#acfa157609b596684398038765e2943db", null ]
 ];

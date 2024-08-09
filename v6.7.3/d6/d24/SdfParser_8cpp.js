@@ -1,6 +1,5 @@
 var SdfParser_8cpp =
 [
-    [ "NextResult", "d6/d24/SdfParser_8cpp.html#a853f4ed2ed72db6b95b117e091c71364", null ],
     [ "readSdfFile", "d6/d24/SdfParser_8cpp.html#a8236ff4ce0486373c4992f480178f4e0", null ],
     [ "readSkeleton", "d6/d24/SdfParser_8cpp.html#a9881d806fcbc00870bdd21c151793341", null ],
     [ "readWorld", "d6/d24/SdfParser_8cpp.html#a30be058062f1453fdd05bf0049ca38bf", null ],

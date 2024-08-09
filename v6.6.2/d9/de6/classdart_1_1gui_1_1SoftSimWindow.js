@@ -11,7 +11,7 @@ var classdart_1_1gui_1_1SoftSimWindow =
     [ "drawEntities", "d9/de6/classdart_1_1gui_1_1SoftSimWindow.html#acf691a61bf149feb8412143dab2b9383", null ],
     [ "drawEntity", "d9/de6/classdart_1_1gui_1_1SoftSimWindow.html#aaf5a03938aab0087cf62afc04f193b47", null ],
     [ "drawMarker", "d9/de6/classdart_1_1gui_1_1SoftSimWindow.html#aa33bbe3d69c7bc6fafc350c83828d5a9", null ],
-    [ "drawPointMasses", "d9/de6/classdart_1_1gui_1_1SoftSimWindow.html#a1c7b8fab86b5dfa38f334b9a3cc28a8c", null ],
+    [ "drawPointMasses", "d9/de6/classdart_1_1gui_1_1SoftSimWindow.html#ada989e73822e56e55ab25ad4e018e1ab", null ],
     [ "drawShape", "d9/de6/classdart_1_1gui_1_1SoftSimWindow.html#ae322ad21e0156bdcc88237398010d2a4", null ],
     [ "drawShapeFrame", "d9/de6/classdart_1_1gui_1_1SoftSimWindow.html#a5391368b7e9fa33a42da1fdc41b0bae4", null ],
     [ "drawSkeleton", "d9/de6/classdart_1_1gui_1_1SoftSimWindow.html#ad8f9b2464e3d4f02333c82569b3c3e94", null ],

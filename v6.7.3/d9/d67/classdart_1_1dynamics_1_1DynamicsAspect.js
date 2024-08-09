@@ -21,5 +21,5 @@ var classdart_1_1dynamics_1_1DynamicsAspect =
     [ "setProperties", "d9/d67/classdart_1_1dynamics_1_1DynamicsAspect.html#acbf5ef8933f8335ab5aa9c60da06a9b9", null ],
     [ "setRestitutionCoeff", "d9/d67/classdart_1_1dynamics_1_1DynamicsAspect.html#a161e4b2eb7feacbe3df2eb8d413c2031", null ],
     [ "mProperties", "d9/d67/classdart_1_1dynamics_1_1DynamicsAspect.html#a7fde45d2751984165544c3dc8454f86b", null ],
-    [ "UpdateProperties", "d9/d67/classdart_1_1dynamics_1_1DynamicsAspect.html#a1a09856402be768ba020d745b378c30d", null ]
+    [ "UpdateProperties", "d9/d67/classdart_1_1dynamics_1_1DynamicsAspect.html#aa4f3462870531d11af29646397b2a4d2", null ]
 ];
