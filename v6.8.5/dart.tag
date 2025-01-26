@@ -1254,93 +1254,6 @@
     <namespace>dart::common</namespace>
   </compound>
   <compound kind="file">
-    <name>Aspect.hpp</name>
-    <path>dart/common/</path>
-    <filename>d4/d97/Aspect_8hpp.html</filename>
-    <includes id="dd/d84/Cloneable_8hpp" name="Cloneable.hpp" local="yes" import="no" module="no" objc="no">dart/common/Cloneable.hpp</includes>
-    <includes id="db/df2/NoOp_8hpp" name="NoOp.hpp" local="yes" import="no" module="no" objc="no">dart/common/detail/NoOp.hpp</includes>
-    <includes id="d0/dc7/detail_2Aspect_8hpp" name="Aspect.hpp" local="yes" import="no" module="no" objc="no">dart/common/detail/Aspect.hpp</includes>
-    <class kind="class">dart::common::Aspect</class>
-    <class kind="class">dart::common::Aspect::State</class>
-    <class kind="class">dart::common::Aspect::Properties</class>
-    <class kind="class">dart::common::CompositeTrackingAspect</class>
-    <namespace>dart</namespace>
-    <namespace>dart::common</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>DART_COMMON_ASPECT_PROPERTY_CONSTRUCTOR</name>
-      <anchorfile>d4/d97/Aspect_8hpp.html</anchorfile>
-      <anchor>aafa6d614d23c1dbf5371ef0b5f5348cb</anchor>
-      <arglist>(ClassName, UpdatePropertiesMacro)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DART_COMMON_ASPECT_STATE_PROPERTY_CONSTRUCTORS</name>
-      <anchorfile>d4/d97/Aspect_8hpp.html</anchorfile>
-      <anchor>af7c393dd3687db38cad84853343c9872</anchor>
-      <arglist>(ClassName)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DART_COMMON_SET_ASPECT_PROPERTY_CUSTOM</name>
-      <anchorfile>d4/d97/Aspect_8hpp.html</anchorfile>
-      <anchor>a5ffa0ee5f0566026daf70c7ad82eede2</anchor>
-      <arglist>(Type, Name, Update)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DART_COMMON_SET_ASPECT_PROPERTY</name>
-      <anchorfile>d4/d97/Aspect_8hpp.html</anchorfile>
-      <anchor>aa562593cbaa66daa3a5f35f51b0a0725</anchor>
-      <arglist>(Type, Name)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DART_COMMON_GET_ASPECT_PROPERTY</name>
-      <anchorfile>d4/d97/Aspect_8hpp.html</anchorfile>
-      <anchor>ab4cde4434e88c0d55e5efa94e383f70b</anchor>
-      <arglist>(Type, Name)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>DART_COMMON_SET_GET_ASPECT_PROPERTY</name>
-      <anchorfile>d4/d97/Aspect_8hpp.html</anchorfile>
-      <anchor>a4bc78bec0238569437a550238273195f</anchor>
-      <arglist>(Type, Name)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>Aspect.hpp</name>
-    <path>dart/common/detail/</path>
-    <filename>d0/dc7/detail_2Aspect_8hpp.html</filename>
-    <includes id="d2/d4f/Console_8hpp" name="Console.hpp" local="yes" import="no" module="no" objc="no">dart/common/Console.hpp</includes>
-    <includes id="d4/d97/Aspect_8hpp" name="Aspect.hpp" local="yes" import="no" module="no" objc="no">dart/common/Aspect.hpp</includes>
-    <namespace>dart</namespace>
-    <namespace>dart::common</namespace>
-  </compound>
-  <compound kind="file">
-    <name>AspectWithVersion.hpp</name>
-    <path>dart/common/</path>
-    <filename>d7/d2a/AspectWithVersion_8hpp.html</filename>
-    <includes id="df/d43/detail_2AspectWithVersion_8hpp" name="AspectWithVersion.hpp" local="yes" import="no" module="no" objc="no">dart/common/detail/AspectWithVersion.hpp</includes>
-    <class kind="class">dart::common::AspectWithStateAndVersionedProperties</class>
-    <namespace>dart</namespace>
-    <namespace>dart::common</namespace>
-  </compound>
-  <compound kind="file">
-    <name>AspectWithVersion.hpp</name>
-    <path>dart/common/detail/</path>
-    <filename>df/d43/detail_2AspectWithVersion_8hpp.html</filename>
-    <includes id="d4/d97/Aspect_8hpp" name="Aspect.hpp" local="yes" import="no" module="no" objc="no">dart/common/Aspect.hpp</includes>
-    <includes id="d8/dbb/Deprecated_8hpp" name="Deprecated.hpp" local="yes" import="no" module="no" objc="no">dart/common/Deprecated.hpp</includes>
-    <includes id="dc/d2e/StlHelpers_8hpp" name="StlHelpers.hpp" local="yes" import="no" module="no" objc="no">dart/common/StlHelpers.hpp</includes>
-    <class kind="class">dart::common::detail::AspectWithState</class>
-    <class kind="class">dart::common::detail::AspectWithVersionedProperties</class>
-    <namespace>dart</namespace>
-    <namespace>dart::common</namespace>
-    <namespace>dart::common::detail</namespace>
-  </compound>
-  <compound kind="file">
     <name>Cloneable.hpp</name>
     <path>dart/common/</path>
     <filename>dd/d84/Cloneable_8hpp.html</filename>
@@ -1481,6 +1394,93 @@
     <namespace>dart::common</namespace>
   </compound>
   <compound kind="file">
+    <name>Aspect.hpp</name>
+    <path>dart/common/</path>
+    <filename>d4/d97/Aspect_8hpp.html</filename>
+    <includes id="dd/d84/Cloneable_8hpp" name="Cloneable.hpp" local="yes" import="no" module="no" objc="no">dart/common/Cloneable.hpp</includes>
+    <includes id="db/df2/NoOp_8hpp" name="NoOp.hpp" local="yes" import="no" module="no" objc="no">dart/common/detail/NoOp.hpp</includes>
+    <includes id="d0/dc7/detail_2Aspect_8hpp" name="Aspect.hpp" local="yes" import="no" module="no" objc="no">dart/common/detail/Aspect.hpp</includes>
+    <class kind="class">dart::common::Aspect</class>
+    <class kind="class">dart::common::Aspect::State</class>
+    <class kind="class">dart::common::Aspect::Properties</class>
+    <class kind="class">dart::common::CompositeTrackingAspect</class>
+    <namespace>dart</namespace>
+    <namespace>dart::common</namespace>
+    <member kind="define">
+      <type>#define</type>
+      <name>DART_COMMON_ASPECT_PROPERTY_CONSTRUCTOR</name>
+      <anchorfile>d4/d97/Aspect_8hpp.html</anchorfile>
+      <anchor>aafa6d614d23c1dbf5371ef0b5f5348cb</anchor>
+      <arglist>(ClassName, UpdatePropertiesMacro)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DART_COMMON_ASPECT_STATE_PROPERTY_CONSTRUCTORS</name>
+      <anchorfile>d4/d97/Aspect_8hpp.html</anchorfile>
+      <anchor>af7c393dd3687db38cad84853343c9872</anchor>
+      <arglist>(ClassName)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DART_COMMON_SET_ASPECT_PROPERTY_CUSTOM</name>
+      <anchorfile>d4/d97/Aspect_8hpp.html</anchorfile>
+      <anchor>a5ffa0ee5f0566026daf70c7ad82eede2</anchor>
+      <arglist>(Type, Name, Update)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DART_COMMON_SET_ASPECT_PROPERTY</name>
+      <anchorfile>d4/d97/Aspect_8hpp.html</anchorfile>
+      <anchor>aa562593cbaa66daa3a5f35f51b0a0725</anchor>
+      <arglist>(Type, Name)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DART_COMMON_GET_ASPECT_PROPERTY</name>
+      <anchorfile>d4/d97/Aspect_8hpp.html</anchorfile>
+      <anchor>ab4cde4434e88c0d55e5efa94e383f70b</anchor>
+      <arglist>(Type, Name)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DART_COMMON_SET_GET_ASPECT_PROPERTY</name>
+      <anchorfile>d4/d97/Aspect_8hpp.html</anchorfile>
+      <anchor>a4bc78bec0238569437a550238273195f</anchor>
+      <arglist>(Type, Name)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>Aspect.hpp</name>
+    <path>dart/common/detail/</path>
+    <filename>d0/dc7/detail_2Aspect_8hpp.html</filename>
+    <includes id="d2/d4f/Console_8hpp" name="Console.hpp" local="yes" import="no" module="no" objc="no">dart/common/Console.hpp</includes>
+    <includes id="d4/d97/Aspect_8hpp" name="Aspect.hpp" local="yes" import="no" module="no" objc="no">dart/common/Aspect.hpp</includes>
+    <namespace>dart</namespace>
+    <namespace>dart::common</namespace>
+  </compound>
+  <compound kind="file">
+    <name>AspectWithVersion.hpp</name>
+    <path>dart/common/</path>
+    <filename>d7/d2a/AspectWithVersion_8hpp.html</filename>
+    <includes id="df/d43/detail_2AspectWithVersion_8hpp" name="AspectWithVersion.hpp" local="yes" import="no" module="no" objc="no">dart/common/detail/AspectWithVersion.hpp</includes>
+    <class kind="class">dart::common::AspectWithStateAndVersionedProperties</class>
+    <namespace>dart</namespace>
+    <namespace>dart::common</namespace>
+  </compound>
+  <compound kind="file">
+    <name>AspectWithVersion.hpp</name>
+    <path>dart/common/detail/</path>
+    <filename>df/d43/detail_2AspectWithVersion_8hpp.html</filename>
+    <includes id="d4/d97/Aspect_8hpp" name="Aspect.hpp" local="yes" import="no" module="no" objc="no">dart/common/Aspect.hpp</includes>
+    <includes id="d8/dbb/Deprecated_8hpp" name="Deprecated.hpp" local="yes" import="no" module="no" objc="no">dart/common/Deprecated.hpp</includes>
+    <includes id="dc/d2e/StlHelpers_8hpp" name="StlHelpers.hpp" local="yes" import="no" module="no" objc="no">dart/common/StlHelpers.hpp</includes>
+    <class kind="class">dart::common::detail::AspectWithState</class>
+    <class kind="class">dart::common::detail::AspectWithVersionedProperties</class>
+    <namespace>dart</namespace>
+    <namespace>dart::common</namespace>
+    <namespace>dart::common::detail</namespace>
+  </compound>
+  <compound kind="file">
     <name>CompositeData.hpp</name>
     <path>dart/common/detail/</path>
     <filename>d2/d01/CompositeData_8hpp.html</filename>
@@ -1545,39 +1545,6 @@
     <namespace>dart::common::signal::detail</namespace>
   </compound>
   <compound kind="file">
-    <name>EmbeddedAspect.hpp</name>
-    <path>dart/common/detail/</path>
-    <filename>de/d1c/detail_2EmbeddedAspect_8hpp.html</filename>
-    <includes id="d4/d97/Aspect_8hpp" name="Aspect.hpp" local="yes" import="no" module="no" objc="no">dart/common/Aspect.hpp</includes>
-    <includes id="dc/d2e/StlHelpers_8hpp" name="StlHelpers.hpp" local="yes" import="no" module="no" objc="no">dart/common/StlHelpers.hpp</includes>
-    <class kind="class">dart::common::detail::EmbeddedStateAspect</class>
-    <class kind="struct">dart::common::detail::EmbeddedStateAspect::ConvertIfState</class>
-    <class kind="class">dart::common::detail::EmbeddedPropertiesAspect</class>
-    <class kind="struct">dart::common::detail::EmbeddedPropertiesAspect::ConvertIfProperties</class>
-    <namespace>dart</namespace>
-    <namespace>dart::common</namespace>
-    <namespace>dart::common::detail</namespace>
-  </compound>
-  <compound kind="file">
-    <name>EmbeddedAspect.hpp</name>
-    <path>dart/common/</path>
-    <filename>d6/da8/EmbeddedAspect_8hpp.html</filename>
-    <includes id="de/d1c/detail_2EmbeddedAspect_8hpp" name="EmbeddedAspect.hpp" local="yes" import="no" module="no" objc="no">dart/common/detail/EmbeddedAspect.hpp</includes>
-    <includes id="d4/d73/RequiresAspect_8hpp" name="RequiresAspect.hpp" local="yes" import="no" module="no" objc="no">dart/common/RequiresAspect.hpp</includes>
-    <includes id="d8/d03/CompositeJoiner_8hpp" name="CompositeJoiner.hpp" local="yes" import="no" module="no" objc="no">dart/common/CompositeJoiner.hpp</includes>
-    <class kind="class">dart::common::EmbeddedStateAspect</class>
-    <class kind="class">dart::common::EmbedState</class>
-    <class kind="class">dart::common::EmbedStateOnTopOf</class>
-    <class kind="class">dart::common::EmbeddedPropertiesAspect</class>
-    <class kind="class">dart::common::EmbedProperties</class>
-    <class kind="class">dart::common::EmbedPropertiesOnTopOf</class>
-    <class kind="class">dart::common::EmbeddedStateAndPropertiesAspect</class>
-    <class kind="class">dart::common::EmbedStateAndProperties</class>
-    <class kind="class">dart::common::EmbedStateAndPropertiesOnTopOf</class>
-    <namespace>dart</namespace>
-    <namespace>dart::common</namespace>
-  </compound>
-  <compound kind="file">
     <name>Factory-impl.hpp</name>
     <path>dart/common/detail/</path>
     <filename>d4/db7/Factory-impl_8hpp.html</filename>
@@ -1623,6 +1590,26 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>RequiresAspect.hpp</name>
+    <path>dart/common/detail/</path>
+    <filename>dc/d9b/detail_2RequiresAspect_8hpp.html</filename>
+    <includes id="d4/d73/RequiresAspect_8hpp" name="RequiresAspect.hpp" local="yes" import="no" module="no" objc="no">dart/common/RequiresAspect.hpp</includes>
+    <namespace>dart</namespace>
+    <namespace>dart::common</namespace>
+  </compound>
+  <compound kind="file">
+    <name>RequiresAspect.hpp</name>
+    <path>dart/common/</path>
+    <filename>d4/d73/RequiresAspect_8hpp.html</filename>
+    <includes id="da/dfe/SpecializedForAspect_8hpp" name="SpecializedForAspect.hpp" local="yes" import="no" module="no" objc="no">dart/common/SpecializedForAspect.hpp</includes>
+    <includes id="dc/d9b/detail_2RequiresAspect_8hpp" name="RequiresAspect.hpp" local="yes" import="no" module="no" objc="no">dart/common/detail/RequiresAspect.hpp</includes>
+    <class kind="class">dart::common::RequiresAspect</class>
+    <class kind="class">dart::common::RequiresAspect&lt; ReqAspect &gt;</class>
+    <class kind="class">dart::common::RequiresAspect&lt; ReqAspect1, OtherReqAspects... &gt;</class>
+    <namespace>dart</namespace>
+    <namespace>dart::common</namespace>
+  </compound>
+  <compound kind="file">
     <name>SharedLibraryManager.cpp</name>
     <path>dart/common/detail/</path>
     <filename>de/ddd/SharedLibraryManager_8cpp.html</filename>
@@ -1654,6 +1641,47 @@
     <namespace>dart::common</namespace>
   </compound>
   <compound kind="file">
+    <name>SpecializedForAspect.hpp</name>
+    <path>dart/common/detail/</path>
+    <filename>da/dc6/detail_2SpecializedForAspect_8hpp.html</filename>
+    <includes id="da/dfe/SpecializedForAspect_8hpp" name="SpecializedForAspect.hpp" local="yes" import="no" module="no" objc="no">dart/common/SpecializedForAspect.hpp</includes>
+    <namespace>dart</namespace>
+    <namespace>dart::common</namespace>
+  </compound>
+  <compound kind="file">
+    <name>SpecializedForAspect.hpp</name>
+    <path>dart/common/</path>
+    <filename>da/dfe/SpecializedForAspect_8hpp.html</filename>
+    <includes id="d8/d3b/Composite_8hpp" name="Composite.hpp" local="yes" import="no" module="no" objc="no">dart/common/Composite.hpp</includes>
+    <includes id="d8/d03/CompositeJoiner_8hpp" name="CompositeJoiner.hpp" local="yes" import="no" module="no" objc="no">dart/common/CompositeJoiner.hpp</includes>
+    <includes id="d7/d55/Virtual_8hpp" name="Virtual.hpp" local="yes" import="no" module="no" objc="no">dart/common/Virtual.hpp</includes>
+    <includes id="da/dc6/detail_2SpecializedForAspect_8hpp" name="SpecializedForAspect.hpp" local="yes" import="no" module="no" objc="no">dart/common/detail/SpecializedForAspect.hpp</includes>
+    <class kind="class">dart::common::SpecializedForAspect</class>
+    <class kind="class">dart::common::SpecializedForAspect&lt; SpecAspect &gt;</class>
+    <class kind="struct">dart::common::SpecializedForAspect&lt; SpecAspect &gt;::type</class>
+    <class kind="class">dart::common::SpecializedForAspect&lt; SpecAspect1, OtherSpecAspects... &gt;</class>
+    <namespace>dart</namespace>
+    <namespace>dart::common</namespace>
+  </compound>
+  <compound kind="file">
+    <name>sub_ptr.hpp</name>
+    <path>dart/common/detail/</path>
+    <filename>d9/d51/detail_2sub__ptr_8hpp.html</filename>
+    <includes id="d3/dba/sub__ptr_8hpp" name="sub_ptr.hpp" local="yes" import="no" module="no" objc="no">dart/common/sub_ptr.hpp</includes>
+    <namespace>dart</namespace>
+    <namespace>dart::common</namespace>
+  </compound>
+  <compound kind="file">
+    <name>sub_ptr.hpp</name>
+    <path>dart/common/</path>
+    <filename>d3/dba/sub__ptr_8hpp.html</filename>
+    <includes id="d6/dd2/Observer_8hpp" name="Observer.hpp" local="yes" import="no" module="no" objc="no">dart/common/Observer.hpp</includes>
+    <includes id="d9/d51/detail_2sub__ptr_8hpp" name="sub_ptr.hpp" local="yes" import="no" module="no" objc="no">dart/common/detail/sub_ptr.hpp</includes>
+    <class kind="class">dart::common::sub_ptr</class>
+    <namespace>dart</namespace>
+    <namespace>dart::common</namespace>
+  </compound>
+  <compound kind="file">
     <name>TemplateJoinerDispatchMacro.hpp</name>
     <path>dart/common/detail/</path>
     <filename>df/d24/TemplateJoinerDispatchMacro_8hpp.html</filename>
@@ -1671,6 +1699,39 @@
       <anchor>a9db35f5851d559754d9492182f1229f4</anchor>
       <arglist>(ReturnType, ClassName, Function, Suffix, Args)</arglist>
     </member>
+  </compound>
+  <compound kind="file">
+    <name>EmbeddedAspect.hpp</name>
+    <path>dart/common/detail/</path>
+    <filename>de/d1c/detail_2EmbeddedAspect_8hpp.html</filename>
+    <includes id="d4/d97/Aspect_8hpp" name="Aspect.hpp" local="yes" import="no" module="no" objc="no">dart/common/Aspect.hpp</includes>
+    <includes id="dc/d2e/StlHelpers_8hpp" name="StlHelpers.hpp" local="yes" import="no" module="no" objc="no">dart/common/StlHelpers.hpp</includes>
+    <class kind="class">dart::common::detail::EmbeddedStateAspect</class>
+    <class kind="struct">dart::common::detail::EmbeddedStateAspect::ConvertIfState</class>
+    <class kind="class">dart::common::detail::EmbeddedPropertiesAspect</class>
+    <class kind="struct">dart::common::detail::EmbeddedPropertiesAspect::ConvertIfProperties</class>
+    <namespace>dart</namespace>
+    <namespace>dart::common</namespace>
+    <namespace>dart::common::detail</namespace>
+  </compound>
+  <compound kind="file">
+    <name>EmbeddedAspect.hpp</name>
+    <path>dart/common/</path>
+    <filename>d6/da8/EmbeddedAspect_8hpp.html</filename>
+    <includes id="de/d1c/detail_2EmbeddedAspect_8hpp" name="EmbeddedAspect.hpp" local="yes" import="no" module="no" objc="no">dart/common/detail/EmbeddedAspect.hpp</includes>
+    <includes id="d4/d73/RequiresAspect_8hpp" name="RequiresAspect.hpp" local="yes" import="no" module="no" objc="no">dart/common/RequiresAspect.hpp</includes>
+    <includes id="d8/d03/CompositeJoiner_8hpp" name="CompositeJoiner.hpp" local="yes" import="no" module="no" objc="no">dart/common/CompositeJoiner.hpp</includes>
+    <class kind="class">dart::common::EmbeddedStateAspect</class>
+    <class kind="class">dart::common::EmbedState</class>
+    <class kind="class">dart::common::EmbedStateOnTopOf</class>
+    <class kind="class">dart::common::EmbeddedPropertiesAspect</class>
+    <class kind="class">dart::common::EmbedProperties</class>
+    <class kind="class">dart::common::EmbedPropertiesOnTopOf</class>
+    <class kind="class">dart::common::EmbeddedStateAndPropertiesAspect</class>
+    <class kind="class">dart::common::EmbedStateAndProperties</class>
+    <class kind="class">dart::common::EmbedStateAndPropertiesOnTopOf</class>
+    <namespace>dart</namespace>
+    <namespace>dart::common</namespace>
   </compound>
   <compound kind="file">
     <name>Empty.hpp</name>
@@ -1959,26 +2020,6 @@
     <namespace>dart::common</namespace>
   </compound>
   <compound kind="file">
-    <name>RequiresAspect.hpp</name>
-    <path>dart/common/detail/</path>
-    <filename>dc/d9b/detail_2RequiresAspect_8hpp.html</filename>
-    <includes id="d4/d73/RequiresAspect_8hpp" name="RequiresAspect.hpp" local="yes" import="no" module="no" objc="no">dart/common/RequiresAspect.hpp</includes>
-    <namespace>dart</namespace>
-    <namespace>dart::common</namespace>
-  </compound>
-  <compound kind="file">
-    <name>RequiresAspect.hpp</name>
-    <path>dart/common/</path>
-    <filename>d4/d73/RequiresAspect_8hpp.html</filename>
-    <includes id="da/dfe/SpecializedForAspect_8hpp" name="SpecializedForAspect.hpp" local="yes" import="no" module="no" objc="no">dart/common/SpecializedForAspect.hpp</includes>
-    <includes id="dc/d9b/detail_2RequiresAspect_8hpp" name="RequiresAspect.hpp" local="yes" import="no" module="no" objc="no">dart/common/detail/RequiresAspect.hpp</includes>
-    <class kind="class">dart::common::RequiresAspect</class>
-    <class kind="class">dart::common::RequiresAspect&lt; ReqAspect &gt;</class>
-    <class kind="class">dart::common::RequiresAspect&lt; ReqAspect1, OtherReqAspects... &gt;</class>
-    <namespace>dart</namespace>
-    <namespace>dart::common</namespace>
-  </compound>
-  <compound kind="file">
     <name>Resource.cpp</name>
     <path>dart/common/</path>
     <filename>d5/d63/Resource_8cpp.html</filename>
@@ -2164,29 +2205,6 @@
     <namespace>dart::simulation</namespace>
   </compound>
   <compound kind="file">
-    <name>SpecializedForAspect.hpp</name>
-    <path>dart/common/detail/</path>
-    <filename>da/dc6/detail_2SpecializedForAspect_8hpp.html</filename>
-    <includes id="da/dfe/SpecializedForAspect_8hpp" name="SpecializedForAspect.hpp" local="yes" import="no" module="no" objc="no">dart/common/SpecializedForAspect.hpp</includes>
-    <namespace>dart</namespace>
-    <namespace>dart::common</namespace>
-  </compound>
-  <compound kind="file">
-    <name>SpecializedForAspect.hpp</name>
-    <path>dart/common/</path>
-    <filename>da/dfe/SpecializedForAspect_8hpp.html</filename>
-    <includes id="d8/d3b/Composite_8hpp" name="Composite.hpp" local="yes" import="no" module="no" objc="no">dart/common/Composite.hpp</includes>
-    <includes id="d8/d03/CompositeJoiner_8hpp" name="CompositeJoiner.hpp" local="yes" import="no" module="no" objc="no">dart/common/CompositeJoiner.hpp</includes>
-    <includes id="d7/d55/Virtual_8hpp" name="Virtual.hpp" local="yes" import="no" module="no" objc="no">dart/common/Virtual.hpp</includes>
-    <includes id="da/dc6/detail_2SpecializedForAspect_8hpp" name="SpecializedForAspect.hpp" local="yes" import="no" module="no" objc="no">dart/common/detail/SpecializedForAspect.hpp</includes>
-    <class kind="class">dart::common::SpecializedForAspect</class>
-    <class kind="class">dart::common::SpecializedForAspect&lt; SpecAspect &gt;</class>
-    <class kind="struct">dart::common::SpecializedForAspect&lt; SpecAspect &gt;::type</class>
-    <class kind="class">dart::common::SpecializedForAspect&lt; SpecAspect1, OtherSpecAspects... &gt;</class>
-    <namespace>dart</namespace>
-    <namespace>dart::common</namespace>
-  </compound>
-  <compound kind="file">
     <name>StlHelpers.hpp</name>
     <path>dart/common/</path>
     <filename>dc/d2e/StlHelpers_8hpp.html</filename>
@@ -2200,24 +2218,6 @@
       <anchor>aecc20302b2b15174be0146a004b02045</anchor>
       <arglist>(x)</arglist>
     </member>
-  </compound>
-  <compound kind="file">
-    <name>sub_ptr.hpp</name>
-    <path>dart/common/detail/</path>
-    <filename>d9/d51/detail_2sub__ptr_8hpp.html</filename>
-    <includes id="d3/dba/sub__ptr_8hpp" name="sub_ptr.hpp" local="yes" import="no" module="no" objc="no">dart/common/sub_ptr.hpp</includes>
-    <namespace>dart</namespace>
-    <namespace>dart::common</namespace>
-  </compound>
-  <compound kind="file">
-    <name>sub_ptr.hpp</name>
-    <path>dart/common/</path>
-    <filename>d3/dba/sub__ptr_8hpp.html</filename>
-    <includes id="d6/dd2/Observer_8hpp" name="Observer.hpp" local="yes" import="no" module="no" objc="no">dart/common/Observer.hpp</includes>
-    <includes id="d9/d51/detail_2sub__ptr_8hpp" name="sub_ptr.hpp" local="yes" import="no" module="no" objc="no">dart/common/detail/sub_ptr.hpp</includes>
-    <class kind="class">dart::common::sub_ptr</class>
-    <namespace>dart</namespace>
-    <namespace>dart::common</namespace>
   </compound>
   <compound kind="file">
     <name>Subject.cpp</name>
@@ -3116,34 +3116,6 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>BodyNode.hpp</name>
-    <path>dart/dynamics/</path>
-    <filename>d7/dc6/BodyNode_8hpp.html</filename>
-    <includes id="d8/dbb/Deprecated_8hpp" name="Deprecated.hpp" local="yes" import="no" module="no" objc="no">dart/common/Deprecated.hpp</includes>
-    <includes id="d8/d84/Signal_8hpp" name="Signal.hpp" local="yes" import="no" module="no" objc="no">dart/common/Signal.hpp</includes>
-    <includes id="d6/da8/EmbeddedAspect_8hpp" name="EmbeddedAspect.hpp" local="yes" import="no" module="no" objc="no">dart/common/EmbeddedAspect.hpp</includes>
-    <includes id="de/d49/Geometry_8hpp" name="Geometry.hpp" local="yes" import="no" module="no" objc="no">dart/math/Geometry.hpp</includes>
-    <includes id="d7/dc6/Node_8hpp" name="Node.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/Node.hpp</includes>
-    <includes id="d3/dae/Frame_8hpp" name="Frame.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/Frame.hpp</includes>
-    <includes id="d2/d9c/dynamics_2SmartPointer_8hpp" name="SmartPointer.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/SmartPointer.hpp</includes>
-    <includes id="d3/d00/TemplatedJacobianNode_8hpp" name="TemplatedJacobianNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/TemplatedJacobianNode.hpp</includes>
-    <includes id="df/d86/SpecializedNodeManager_8hpp" name="SpecializedNodeManager.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/SpecializedNodeManager.hpp</includes>
-    <includes id="d3/db6/BodyNodeAspect_8hpp" name="BodyNodeAspect.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/BodyNodeAspect.hpp</includes>
-    <includes id="d4/d58/Skeleton_8hpp" name="Skeleton.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/Skeleton.hpp</includes>
-    <includes id="d2/dde/detail_2BodyNode_8hpp" name="BodyNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/BodyNode.hpp</includes>
-    <class kind="class">dart::dynamics::BodyNode</class>
-    <namespace>dart</namespace>
-    <namespace>dart::dynamics</namespace>
-  </compound>
-  <compound kind="file">
-    <name>BodyNode.hpp</name>
-    <path>dart/dynamics/detail/</path>
-    <filename>d2/dde/detail_2BodyNode_8hpp.html</filename>
-    <includes id="d4/d58/Skeleton_8hpp" name="Skeleton.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/Skeleton.hpp</includes>
-    <namespace>dart</namespace>
-    <namespace>dart::dynamics</namespace>
-  </compound>
-  <compound kind="file">
     <name>BoxShape.cpp</name>
     <path>dart/dynamics/</path>
     <filename>d8/db4/BoxShape_8cpp.html</filename>
@@ -3215,27 +3187,6 @@
     <includes id="d5/d94/Linkage_8hpp" name="Linkage.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/Linkage.hpp</includes>
     <class kind="class">dart::dynamics::Chain</class>
     <class kind="struct">dart::dynamics::Chain::Criteria</class>
-    <namespace>dart</namespace>
-    <namespace>dart::dynamics</namespace>
-  </compound>
-  <compound kind="file">
-    <name>CompositeNode.hpp</name>
-    <path>dart/dynamics/</path>
-    <filename>d8/def/CompositeNode_8hpp.html</filename>
-    <includes id="d8/d3b/Composite_8hpp" name="Composite.hpp" local="yes" import="no" module="no" objc="no">dart/common/Composite.hpp</includes>
-    <includes id="d7/dc6/Node_8hpp" name="Node.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/Node.hpp</includes>
-    <includes id="d4/d2e/detail_2CompositeNode_8hpp" name="CompositeNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/CompositeNode.hpp</includes>
-    <class kind="class">dart::dynamics::CompositeStateNode</class>
-    <class kind="class">dart::dynamics::CompositePropertiesNode</class>
-    <class kind="class">dart::dynamics::CompositeNode</class>
-    <namespace>dart</namespace>
-    <namespace>dart::dynamics</namespace>
-  </compound>
-  <compound kind="file">
-    <name>CompositeNode.hpp</name>
-    <path>dart/dynamics/detail/</path>
-    <filename>d4/d2e/detail_2CompositeNode_8hpp.html</filename>
-    <includes id="d8/def/CompositeNode_8hpp" name="CompositeNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/CompositeNode.hpp</includes>
     <namespace>dart</namespace>
     <namespace>dart::dynamics</namespace>
   </compound>
@@ -3396,6 +3347,34 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>BodyNode.hpp</name>
+    <path>dart/dynamics/</path>
+    <filename>d7/dc6/BodyNode_8hpp.html</filename>
+    <includes id="d8/dbb/Deprecated_8hpp" name="Deprecated.hpp" local="yes" import="no" module="no" objc="no">dart/common/Deprecated.hpp</includes>
+    <includes id="d8/d84/Signal_8hpp" name="Signal.hpp" local="yes" import="no" module="no" objc="no">dart/common/Signal.hpp</includes>
+    <includes id="d6/da8/EmbeddedAspect_8hpp" name="EmbeddedAspect.hpp" local="yes" import="no" module="no" objc="no">dart/common/EmbeddedAspect.hpp</includes>
+    <includes id="de/d49/Geometry_8hpp" name="Geometry.hpp" local="yes" import="no" module="no" objc="no">dart/math/Geometry.hpp</includes>
+    <includes id="d7/dc6/Node_8hpp" name="Node.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/Node.hpp</includes>
+    <includes id="d3/dae/Frame_8hpp" name="Frame.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/Frame.hpp</includes>
+    <includes id="d2/d9c/dynamics_2SmartPointer_8hpp" name="SmartPointer.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/SmartPointer.hpp</includes>
+    <includes id="d3/d00/TemplatedJacobianNode_8hpp" name="TemplatedJacobianNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/TemplatedJacobianNode.hpp</includes>
+    <includes id="df/d86/SpecializedNodeManager_8hpp" name="SpecializedNodeManager.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/SpecializedNodeManager.hpp</includes>
+    <includes id="d3/db6/BodyNodeAspect_8hpp" name="BodyNodeAspect.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/BodyNodeAspect.hpp</includes>
+    <includes id="d4/d58/Skeleton_8hpp" name="Skeleton.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/Skeleton.hpp</includes>
+    <includes id="d2/dde/detail_2BodyNode_8hpp" name="BodyNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/BodyNode.hpp</includes>
+    <class kind="class">dart::dynamics::BodyNode</class>
+    <namespace>dart</namespace>
+    <namespace>dart::dynamics</namespace>
+  </compound>
+  <compound kind="file">
+    <name>BodyNode.hpp</name>
+    <path>dart/dynamics/detail/</path>
+    <filename>d2/dde/detail_2BodyNode_8hpp.html</filename>
+    <includes id="d4/d58/Skeleton_8hpp" name="Skeleton.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/Skeleton.hpp</includes>
+    <namespace>dart</namespace>
+    <namespace>dart::dynamics</namespace>
+  </compound>
+  <compound kind="file">
     <name>BodyNodeAspect.hpp</name>
     <path>dart/dynamics/detail/</path>
     <filename>d3/db6/BodyNodeAspect_8hpp.html</filename>
@@ -3418,6 +3397,27 @@
     <class kind="class">dart::dynamics::SkeletonRefCountingBase</class>
     <class kind="class">dart::dynamics::TemplateBodyNodePtr</class>
     <class kind="class">dart::dynamics::TemplateWeakBodyNodePtr</class>
+    <namespace>dart</namespace>
+    <namespace>dart::dynamics</namespace>
+  </compound>
+  <compound kind="file">
+    <name>CompositeNode.hpp</name>
+    <path>dart/dynamics/</path>
+    <filename>d8/def/CompositeNode_8hpp.html</filename>
+    <includes id="d8/d3b/Composite_8hpp" name="Composite.hpp" local="yes" import="no" module="no" objc="no">dart/common/Composite.hpp</includes>
+    <includes id="d7/dc6/Node_8hpp" name="Node.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/Node.hpp</includes>
+    <includes id="d4/d2e/detail_2CompositeNode_8hpp" name="CompositeNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/CompositeNode.hpp</includes>
+    <class kind="class">dart::dynamics::CompositeStateNode</class>
+    <class kind="class">dart::dynamics::CompositePropertiesNode</class>
+    <class kind="class">dart::dynamics::CompositeNode</class>
+    <namespace>dart</namespace>
+    <namespace>dart::dynamics</namespace>
+  </compound>
+  <compound kind="file">
+    <name>CompositeNode.hpp</name>
+    <path>dart/dynamics/detail/</path>
+    <filename>d4/d2e/detail_2CompositeNode_8hpp.html</filename>
+    <includes id="d8/def/CompositeNode_8hpp" name="CompositeNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/CompositeNode.hpp</includes>
     <namespace>dart</namespace>
     <namespace>dart::dynamics</namespace>
   </compound>
@@ -3496,6 +3496,27 @@
     <namespace>dart::dynamics::detail</namespace>
   </compound>
   <compound kind="file">
+    <name>FixedJacobianNode.hpp</name>
+    <path>dart/dynamics/detail/</path>
+    <filename>d9/d2a/detail_2FixedJacobianNode_8hpp.html</filename>
+    <includes id="d3/d00/TemplatedJacobianNode_8hpp" name="TemplatedJacobianNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/TemplatedJacobianNode.hpp</includes>
+    <includes id="d6/d97/FixedFrame_8hpp" name="FixedFrame.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/FixedFrame.hpp</includes>
+    <includes id="de/d24/EntityNode_8hpp" name="EntityNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/EntityNode.hpp</includes>
+    <namespace>dart</namespace>
+    <namespace>dart::dynamics</namespace>
+    <namespace>dart::dynamics::detail</namespace>
+  </compound>
+  <compound kind="file">
+    <name>FixedJacobianNode.hpp</name>
+    <path>dart/dynamics/</path>
+    <filename>d7/dc3/FixedJacobianNode_8hpp.html</filename>
+    <includes id="d9/d2a/detail_2FixedJacobianNode_8hpp" name="FixedJacobianNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/FixedJacobianNode.hpp</includes>
+    <class kind="class">dart::dynamics::FixedJacobianNode</class>
+    <class kind="struct">dart::dynamics::FixedJacobianNode::Cache</class>
+    <namespace>dart</namespace>
+    <namespace>dart::dynamics</namespace>
+  </compound>
+  <compound kind="file">
     <name>GenericJointAspect.hpp</name>
     <path>dart/dynamics/detail/</path>
     <filename>d6/dd1/GenericJointAspect_8hpp.html</filename>
@@ -3516,6 +3537,50 @@
     <includes id="d7/d74/HeightmapShape_8hpp" name="HeightmapShape.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/HeightmapShape.hpp</includes>
     <includes id="d2/d4f/Console_8hpp" name="Console.hpp" local="yes" import="no" module="no" objc="no">dart/common/Console.hpp</includes>
     <includes id="df/d22/BoxShape_8hpp" name="BoxShape.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/BoxShape.hpp</includes>
+    <namespace>dart</namespace>
+    <namespace>dart::dynamics</namespace>
+  </compound>
+  <compound kind="file">
+    <name>InverseKinematics.hpp</name>
+    <path>dart/dynamics/detail/</path>
+    <filename>d7/dff/detail_2InverseKinematics_8hpp.html</filename>
+    <includes id="de/d6a/InverseKinematics_8hpp" name="InverseKinematics.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/InverseKinematics.hpp</includes>
+    <namespace>dart</namespace>
+    <namespace>dart::dynamics</namespace>
+  </compound>
+  <compound kind="file">
+    <name>InverseKinematics.hpp</name>
+    <path>dart/dynamics/</path>
+    <filename>de/d6a/InverseKinematics_8hpp.html</filename>
+    <includes id="d3/dba/sub__ptr_8hpp" name="sub_ptr.hpp" local="yes" import="no" module="no" objc="no">dart/common/sub_ptr.hpp</includes>
+    <includes id="d8/d84/Signal_8hpp" name="Signal.hpp" local="yes" import="no" module="no" objc="no">dart/common/Signal.hpp</includes>
+    <includes id="d7/d5f/Subject_8hpp" name="Subject.hpp" local="yes" import="no" module="no" objc="no">dart/common/Subject.hpp</includes>
+    <includes id="de/d49/Geometry_8hpp" name="Geometry.hpp" local="yes" import="no" module="no" objc="no">dart/math/Geometry.hpp</includes>
+    <includes id="d1/d19/Solver_8hpp" name="Solver.hpp" local="yes" import="no" module="no" objc="no">dart/optimizer/Solver.hpp</includes>
+    <includes id="d8/da6/Problem_8hpp" name="Problem.hpp" local="yes" import="no" module="no" objc="no">dart/optimizer/Problem.hpp</includes>
+    <includes id="d4/d59/Function_8hpp" name="Function.hpp" local="yes" import="no" module="no" objc="no">dart/optimizer/Function.hpp</includes>
+    <includes id="d2/d9c/dynamics_2SmartPointer_8hpp" name="SmartPointer.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/SmartPointer.hpp</includes>
+    <includes id="df/d5d/JacobianNode_8hpp" name="JacobianNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/JacobianNode.hpp</includes>
+    <includes id="d7/dff/detail_2InverseKinematics_8hpp" name="InverseKinematics.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/InverseKinematics.hpp</includes>
+    <class kind="class">dart::dynamics::InverseKinematics</class>
+    <class kind="class">dart::dynamics::InverseKinematics::Function</class>
+    <class kind="class">dart::dynamics::InverseKinematics::ErrorMethod</class>
+    <class kind="struct">dart::dynamics::InverseKinematics::ErrorMethod::Properties</class>
+    <class kind="class">dart::dynamics::InverseKinematics::TaskSpaceRegion</class>
+    <class kind="struct">dart::dynamics::InverseKinematics::TaskSpaceRegion::UniqueProperties</class>
+    <class kind="struct">dart::dynamics::InverseKinematics::TaskSpaceRegion::Properties</class>
+    <class kind="class">dart::dynamics::InverseKinematics::GradientMethod</class>
+    <class kind="struct">dart::dynamics::InverseKinematics::GradientMethod::Properties</class>
+    <class kind="class">dart::dynamics::InverseKinematics::JacobianDLS</class>
+    <class kind="struct">dart::dynamics::InverseKinematics::JacobianDLS::UniqueProperties</class>
+    <class kind="struct">dart::dynamics::InverseKinematics::JacobianDLS::Properties</class>
+    <class kind="class">dart::dynamics::InverseKinematics::JacobianTranspose</class>
+    <class kind="class">dart::dynamics::InverseKinematics::Analytical</class>
+    <class kind="struct">dart::dynamics::InverseKinematics::Analytical::Solution</class>
+    <class kind="struct">dart::dynamics::InverseKinematics::Analytical::UniqueProperties</class>
+    <class kind="struct">dart::dynamics::InverseKinematics::Analytical::Properties</class>
+    <class kind="class">dart::dynamics::InverseKinematics::Objective</class>
+    <class kind="class">dart::dynamics::InverseKinematics::Constraint</class>
     <namespace>dart</namespace>
     <namespace>dart::dynamics</namespace>
   </compound>
@@ -3810,6 +3875,32 @@
     <namespace>dart::dynamics</namespace>
   </compound>
   <compound kind="file">
+    <name>NodeManagerJoiner.hpp</name>
+    <path>dart/dynamics/detail/</path>
+    <filename>d6/d91/detail_2NodeManagerJoiner_8hpp.html</filename>
+    <includes id="de/d37/NodeManagerJoiner_8hpp" name="NodeManagerJoiner.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/NodeManagerJoiner.hpp</includes>
+    <includes id="df/d24/TemplateJoinerDispatchMacro_8hpp" name="TemplateJoinerDispatchMacro.hpp" local="yes" import="no" module="no" objc="no">dart/common/detail/TemplateJoinerDispatchMacro.hpp</includes>
+    <namespace>dart</namespace>
+    <namespace>dart::dynamics</namespace>
+  </compound>
+  <compound kind="file">
+    <name>NodeManagerJoiner.hpp</name>
+    <path>dart/dynamics/</path>
+    <filename>de/d37/NodeManagerJoiner_8hpp.html</filename>
+    <includes id="d9/d98/Empty_8hpp" name="Empty.hpp" local="yes" import="no" module="no" objc="no">dart/common/Empty.hpp</includes>
+    <includes id="d6/d91/detail_2NodeManagerJoiner_8hpp" name="NodeManagerJoiner.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/NodeManagerJoiner.hpp</includes>
+    <class kind="class">dart::dynamics::NodeManagerJoinerForBodyNode</class>
+    <class kind="class">dart::dynamics::NodeManagerJoinerForBodyNode&lt; Base1 &gt;</class>
+    <class kind="class">dart::dynamics::NodeManagerJoinerForBodyNode&lt; Base1, Base2 &gt;</class>
+    <class kind="class">dart::dynamics::NodeManagerJoinerForBodyNode&lt; Base1, Base2, OtherBases... &gt;</class>
+    <class kind="class">dart::dynamics::NodeManagerJoinerForSkeleton</class>
+    <class kind="class">dart::dynamics::NodeManagerJoinerForSkeleton&lt; Base1 &gt;</class>
+    <class kind="class">dart::dynamics::NodeManagerJoinerForSkeleton&lt; Base1, Base2 &gt;</class>
+    <class kind="class">dart::dynamics::NodeManagerJoinerForSkeleton&lt; Base1, Base2, OtherBases... &gt;</class>
+    <namespace>dart</namespace>
+    <namespace>dart::dynamics</namespace>
+  </compound>
+  <compound kind="file">
     <name>NodePtr.hpp</name>
     <path>dart/dynamics/detail/</path>
     <filename>de/da4/NodePtr_8hpp.html</filename>
@@ -3900,6 +3991,29 @@
     <namespace>dart::dynamics::detail</namespace>
   </compound>
   <compound kind="file">
+    <name>Shape.hpp</name>
+    <path>dart/dynamics/detail/</path>
+    <filename>d1/d9a/detail_2Shape_8hpp.html</filename>
+    <includes id="d2/df8/Shape_8hpp" name="Shape.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/Shape.hpp</includes>
+    <namespace>dart</namespace>
+    <namespace>dart::dynamics</namespace>
+  </compound>
+  <compound kind="file">
+    <name>Shape.hpp</name>
+    <path>dart/dynamics/</path>
+    <filename>d2/df8/Shape_8hpp.html</filename>
+    <includes id="d8/dbb/Deprecated_8hpp" name="Deprecated.hpp" local="yes" import="no" module="no" objc="no">dart/common/Deprecated.hpp</includes>
+    <includes id="d8/d84/Signal_8hpp" name="Signal.hpp" local="yes" import="no" module="no" objc="no">dart/common/Signal.hpp</includes>
+    <includes id="d7/d5f/Subject_8hpp" name="Subject.hpp" local="yes" import="no" module="no" objc="no">dart/common/Subject.hpp</includes>
+    <includes id="d9/db7/VersionCounter_8hpp" name="VersionCounter.hpp" local="yes" import="no" module="no" objc="no">dart/common/VersionCounter.hpp</includes>
+    <includes id="de/d49/Geometry_8hpp" name="Geometry.hpp" local="yes" import="no" module="no" objc="no">dart/math/Geometry.hpp</includes>
+    <includes id="d2/d9c/dynamics_2SmartPointer_8hpp" name="SmartPointer.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/SmartPointer.hpp</includes>
+    <includes id="d1/d9a/detail_2Shape_8hpp" name="Shape.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/Shape.hpp</includes>
+    <class kind="class">dart::dynamics::Shape</class>
+    <namespace>dart</namespace>
+    <namespace>dart::dynamics</namespace>
+  </compound>
+  <compound kind="file">
     <name>ShapeFrameAspect.hpp</name>
     <path>dart/dynamics/detail/</path>
     <filename>d2/d45/ShapeFrameAspect_8hpp.html</filename>
@@ -3912,6 +4026,70 @@
     <namespace>dart</namespace>
     <namespace>dart::dynamics</namespace>
     <namespace>dart::dynamics::detail</namespace>
+  </compound>
+  <compound kind="file">
+    <name>ShapeNode.hpp</name>
+    <path>dart/dynamics/detail/</path>
+    <filename>d7/da0/dynamics_2detail_2ShapeNode_8hpp.html</filename>
+    <includes id="db/dd7/ShapeFrame_8hpp" name="ShapeFrame.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/ShapeFrame.hpp</includes>
+    <includes id="d7/dc3/FixedJacobianNode_8hpp" name="FixedJacobianNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/FixedJacobianNode.hpp</includes>
+    <includes id="d8/def/CompositeNode_8hpp" name="CompositeNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/CompositeNode.hpp</includes>
+    <namespace>dart</namespace>
+    <namespace>dart::dynamics</namespace>
+    <namespace>dart::dynamics::detail</namespace>
+  </compound>
+  <compound kind="file">
+    <name>ShapeNode.hpp</name>
+    <path>dart/dynamics/</path>
+    <filename>db/de3/dynamics_2ShapeNode_8hpp.html</filename>
+    <includes id="d8/d84/Signal_8hpp" name="Signal.hpp" local="yes" import="no" module="no" objc="no">dart/common/Signal.hpp</includes>
+    <includes id="d7/da0/dynamics_2detail_2ShapeNode_8hpp" name="ShapeNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/ShapeNode.hpp</includes>
+    <class kind="class">dart::dynamics::ShapeNode</class>
+    <namespace>dart</namespace>
+    <namespace>dart::dynamics</namespace>
+  </compound>
+  <compound kind="file">
+    <name>ShapeNode.hpp</name>
+    <path>dart/gui/osg/render/</path>
+    <filename>d5/d44/gui_2osg_2render_2ShapeNode_8hpp.html</filename>
+    <class kind="class">dart::gui::osg::render::ShapeNode</class>
+    <namespace>dart</namespace>
+    <namespace>dart::dynamics</namespace>
+    <namespace>dart::gui</namespace>
+    <namespace>dart::gui::osg</namespace>
+    <namespace>dart::gui::osg::render</namespace>
+  </compound>
+  <compound kind="file">
+    <name>Skeleton.hpp</name>
+    <path>dart/dynamics/detail/</path>
+    <filename>dd/dfc/detail_2Skeleton_8hpp.html</filename>
+    <includes id="d4/d58/Skeleton_8hpp" name="Skeleton.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/Skeleton.hpp</includes>
+    <namespace>dart</namespace>
+    <namespace>dart::dynamics</namespace>
+  </compound>
+  <compound kind="file">
+    <name>Skeleton.hpp</name>
+    <path>dart/dynamics/</path>
+    <filename>d4/d58/Skeleton_8hpp.html</filename>
+    <includes id="d8/de1/NameManager_8hpp" name="NameManager.hpp" local="yes" import="no" module="no" objc="no">dart/common/NameManager.hpp</includes>
+    <includes id="d9/db7/VersionCounter_8hpp" name="VersionCounter.hpp" local="yes" import="no" module="no" objc="no">dart/common/VersionCounter.hpp</includes>
+    <includes id="d0/d96/MetaSkeleton_8hpp" name="MetaSkeleton.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/MetaSkeleton.hpp</includes>
+    <includes id="d2/d9c/dynamics_2SmartPointer_8hpp" name="SmartPointer.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/SmartPointer.hpp</includes>
+    <includes id="d1/d9a/HierarchicalIK_8hpp" name="HierarchicalIK.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/HierarchicalIK.hpp</includes>
+    <includes id="db/d4a/Joint_8hpp" name="Joint.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/Joint.hpp</includes>
+    <includes id="db/de3/dynamics_2ShapeNode_8hpp" name="ShapeNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/ShapeNode.hpp</includes>
+    <includes id="d3/d78/EndEffector_8hpp" name="EndEffector.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/EndEffector.hpp</includes>
+    <includes id="d8/d1a/Marker_8hpp" name="Marker.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/Marker.hpp</includes>
+    <includes id="d3/db6/BodyNodeAspect_8hpp" name="BodyNodeAspect.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/BodyNodeAspect.hpp</includes>
+    <includes id="df/d86/SpecializedNodeManager_8hpp" name="SpecializedNodeManager.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/SpecializedNodeManager.hpp</includes>
+    <includes id="d9/de0/SkeletonAspect_8hpp" name="SkeletonAspect.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/SkeletonAspect.hpp</includes>
+    <includes id="dd/dfc/detail_2Skeleton_8hpp" name="Skeleton.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/Skeleton.hpp</includes>
+    <class kind="class">dart::dynamics::Skeleton</class>
+    <class kind="struct">dart::dynamics::Skeleton::Configuration</class>
+    <class kind="struct">dart::dynamics::Skeleton::DirtyFlags</class>
+    <class kind="struct">dart::dynamics::Skeleton::DataCache</class>
+    <namespace>dart</namespace>
+    <namespace>dart::dynamics</namespace>
   </compound>
   <compound kind="file">
     <name>SkeletonAspect.hpp</name>
@@ -3939,6 +4117,31 @@
     <namespace>dart</namespace>
     <namespace>dart::dynamics</namespace>
     <namespace>dart::dynamics::detail</namespace>
+  </compound>
+  <compound kind="file">
+    <name>SpecializedNodeManager.hpp</name>
+    <path>dart/dynamics/detail/</path>
+    <filename>d6/d3b/detail_2SpecializedNodeManager_8hpp.html</filename>
+    <includes id="df/d86/SpecializedNodeManager_8hpp" name="SpecializedNodeManager.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/SpecializedNodeManager.hpp</includes>
+    <namespace>dart</namespace>
+    <namespace>dart::dynamics</namespace>
+  </compound>
+  <compound kind="file">
+    <name>SpecializedNodeManager.hpp</name>
+    <path>dart/dynamics/</path>
+    <filename>df/d86/SpecializedNodeManager_8hpp.html</filename>
+    <includes id="d7/d55/Virtual_8hpp" name="Virtual.hpp" local="yes" import="no" module="no" objc="no">dart/common/Virtual.hpp</includes>
+    <includes id="d2/d9a/BasicNodeManager_8hpp" name="BasicNodeManager.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/BasicNodeManager.hpp</includes>
+    <includes id="de/d37/NodeManagerJoiner_8hpp" name="NodeManagerJoiner.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/NodeManagerJoiner.hpp</includes>
+    <includes id="d6/d3b/detail_2SpecializedNodeManager_8hpp" name="SpecializedNodeManager.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/SpecializedNodeManager.hpp</includes>
+    <class kind="class">dart::dynamics::BodyNodeSpecializedFor</class>
+    <class kind="class">dart::dynamics::BodyNodeSpecializedFor&lt; SpecNode &gt;</class>
+    <class kind="class">dart::dynamics::BodyNodeSpecializedFor&lt; SpecNode1, OtherSpecNodes... &gt;</class>
+    <class kind="class">dart::dynamics::SkeletonSpecializedFor</class>
+    <class kind="class">dart::dynamics::SkeletonSpecializedFor&lt; SpecNode &gt;</class>
+    <class kind="class">dart::dynamics::SkeletonSpecializedFor&lt; SpecNode1, OtherSpecNodes... &gt;</class>
+    <namespace>dart</namespace>
+    <namespace>dart::dynamics</namespace>
   </compound>
   <compound kind="file">
     <name>TranslationalJoint2DAspect.cpp</name>
@@ -4117,27 +4320,6 @@
     <filename>d2/d9a/FixedJacobianNode_8cpp.html</filename>
     <includes id="d7/dc3/FixedJacobianNode_8hpp" name="FixedJacobianNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/FixedJacobianNode.hpp</includes>
     <includes id="d7/dc6/BodyNode_8hpp" name="BodyNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/BodyNode.hpp</includes>
-    <namespace>dart</namespace>
-    <namespace>dart::dynamics</namespace>
-  </compound>
-  <compound kind="file">
-    <name>FixedJacobianNode.hpp</name>
-    <path>dart/dynamics/detail/</path>
-    <filename>d9/d2a/detail_2FixedJacobianNode_8hpp.html</filename>
-    <includes id="d3/d00/TemplatedJacobianNode_8hpp" name="TemplatedJacobianNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/TemplatedJacobianNode.hpp</includes>
-    <includes id="d6/d97/FixedFrame_8hpp" name="FixedFrame.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/FixedFrame.hpp</includes>
-    <includes id="de/d24/EntityNode_8hpp" name="EntityNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/EntityNode.hpp</includes>
-    <namespace>dart</namespace>
-    <namespace>dart::dynamics</namespace>
-    <namespace>dart::dynamics::detail</namespace>
-  </compound>
-  <compound kind="file">
-    <name>FixedJacobianNode.hpp</name>
-    <path>dart/dynamics/</path>
-    <filename>d7/dc3/FixedJacobianNode_8hpp.html</filename>
-    <includes id="d9/d2a/detail_2FixedJacobianNode_8hpp" name="FixedJacobianNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/FixedJacobianNode.hpp</includes>
-    <class kind="class">dart::dynamics::FixedJacobianNode</class>
-    <class kind="struct">dart::dynamics::FixedJacobianNode::Cache</class>
     <namespace>dart</namespace>
     <namespace>dart::dynamics</namespace>
   </compound>
@@ -4356,50 +4538,6 @@
     <namespace>dart::dynamics</namespace>
   </compound>
   <compound kind="file">
-    <name>InverseKinematics.hpp</name>
-    <path>dart/dynamics/detail/</path>
-    <filename>d7/dff/detail_2InverseKinematics_8hpp.html</filename>
-    <includes id="de/d6a/InverseKinematics_8hpp" name="InverseKinematics.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/InverseKinematics.hpp</includes>
-    <namespace>dart</namespace>
-    <namespace>dart::dynamics</namespace>
-  </compound>
-  <compound kind="file">
-    <name>InverseKinematics.hpp</name>
-    <path>dart/dynamics/</path>
-    <filename>de/d6a/InverseKinematics_8hpp.html</filename>
-    <includes id="d3/dba/sub__ptr_8hpp" name="sub_ptr.hpp" local="yes" import="no" module="no" objc="no">dart/common/sub_ptr.hpp</includes>
-    <includes id="d8/d84/Signal_8hpp" name="Signal.hpp" local="yes" import="no" module="no" objc="no">dart/common/Signal.hpp</includes>
-    <includes id="d7/d5f/Subject_8hpp" name="Subject.hpp" local="yes" import="no" module="no" objc="no">dart/common/Subject.hpp</includes>
-    <includes id="de/d49/Geometry_8hpp" name="Geometry.hpp" local="yes" import="no" module="no" objc="no">dart/math/Geometry.hpp</includes>
-    <includes id="d1/d19/Solver_8hpp" name="Solver.hpp" local="yes" import="no" module="no" objc="no">dart/optimizer/Solver.hpp</includes>
-    <includes id="d8/da6/Problem_8hpp" name="Problem.hpp" local="yes" import="no" module="no" objc="no">dart/optimizer/Problem.hpp</includes>
-    <includes id="d4/d59/Function_8hpp" name="Function.hpp" local="yes" import="no" module="no" objc="no">dart/optimizer/Function.hpp</includes>
-    <includes id="d2/d9c/dynamics_2SmartPointer_8hpp" name="SmartPointer.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/SmartPointer.hpp</includes>
-    <includes id="df/d5d/JacobianNode_8hpp" name="JacobianNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/JacobianNode.hpp</includes>
-    <includes id="d7/dff/detail_2InverseKinematics_8hpp" name="InverseKinematics.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/InverseKinematics.hpp</includes>
-    <class kind="class">dart::dynamics::InverseKinematics</class>
-    <class kind="class">dart::dynamics::InverseKinematics::Function</class>
-    <class kind="class">dart::dynamics::InverseKinematics::ErrorMethod</class>
-    <class kind="struct">dart::dynamics::InverseKinematics::ErrorMethod::Properties</class>
-    <class kind="class">dart::dynamics::InverseKinematics::TaskSpaceRegion</class>
-    <class kind="struct">dart::dynamics::InverseKinematics::TaskSpaceRegion::UniqueProperties</class>
-    <class kind="struct">dart::dynamics::InverseKinematics::TaskSpaceRegion::Properties</class>
-    <class kind="class">dart::dynamics::InverseKinematics::GradientMethod</class>
-    <class kind="struct">dart::dynamics::InverseKinematics::GradientMethod::Properties</class>
-    <class kind="class">dart::dynamics::InverseKinematics::JacobianDLS</class>
-    <class kind="struct">dart::dynamics::InverseKinematics::JacobianDLS::UniqueProperties</class>
-    <class kind="struct">dart::dynamics::InverseKinematics::JacobianDLS::Properties</class>
-    <class kind="class">dart::dynamics::InverseKinematics::JacobianTranspose</class>
-    <class kind="class">dart::dynamics::InverseKinematics::Analytical</class>
-    <class kind="struct">dart::dynamics::InverseKinematics::Analytical::Solution</class>
-    <class kind="struct">dart::dynamics::InverseKinematics::Analytical::UniqueProperties</class>
-    <class kind="struct">dart::dynamics::InverseKinematics::Analytical::Properties</class>
-    <class kind="class">dart::dynamics::InverseKinematics::Objective</class>
-    <class kind="class">dart::dynamics::InverseKinematics::Constraint</class>
-    <namespace>dart</namespace>
-    <namespace>dart::dynamics</namespace>
-  </compound>
-  <compound kind="file">
     <name>JacobianNode.cpp</name>
     <path>dart/dynamics/</path>
     <filename>d8/dbf/JacobianNode_8cpp.html</filename>
@@ -4604,32 +4742,6 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>NodeManagerJoiner.hpp</name>
-    <path>dart/dynamics/detail/</path>
-    <filename>d6/d91/detail_2NodeManagerJoiner_8hpp.html</filename>
-    <includes id="de/d37/NodeManagerJoiner_8hpp" name="NodeManagerJoiner.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/NodeManagerJoiner.hpp</includes>
-    <includes id="df/d24/TemplateJoinerDispatchMacro_8hpp" name="TemplateJoinerDispatchMacro.hpp" local="yes" import="no" module="no" objc="no">dart/common/detail/TemplateJoinerDispatchMacro.hpp</includes>
-    <namespace>dart</namespace>
-    <namespace>dart::dynamics</namespace>
-  </compound>
-  <compound kind="file">
-    <name>NodeManagerJoiner.hpp</name>
-    <path>dart/dynamics/</path>
-    <filename>de/d37/NodeManagerJoiner_8hpp.html</filename>
-    <includes id="d9/d98/Empty_8hpp" name="Empty.hpp" local="yes" import="no" module="no" objc="no">dart/common/Empty.hpp</includes>
-    <includes id="d6/d91/detail_2NodeManagerJoiner_8hpp" name="NodeManagerJoiner.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/NodeManagerJoiner.hpp</includes>
-    <class kind="class">dart::dynamics::NodeManagerJoinerForBodyNode</class>
-    <class kind="class">dart::dynamics::NodeManagerJoinerForBodyNode&lt; Base1 &gt;</class>
-    <class kind="class">dart::dynamics::NodeManagerJoinerForBodyNode&lt; Base1, Base2 &gt;</class>
-    <class kind="class">dart::dynamics::NodeManagerJoinerForBodyNode&lt; Base1, Base2, OtherBases... &gt;</class>
-    <class kind="class">dart::dynamics::NodeManagerJoinerForSkeleton</class>
-    <class kind="class">dart::dynamics::NodeManagerJoinerForSkeleton&lt; Base1 &gt;</class>
-    <class kind="class">dart::dynamics::NodeManagerJoinerForSkeleton&lt; Base1, Base2 &gt;</class>
-    <class kind="class">dart::dynamics::NodeManagerJoinerForSkeleton&lt; Base1, Base2, OtherBases... &gt;</class>
-    <namespace>dart</namespace>
-    <namespace>dart::dynamics</namespace>
-  </compound>
-  <compound kind="file">
     <name>PlanarJoint.cpp</name>
     <path>dart/dynamics/</path>
     <filename>d5/d9e/PlanarJoint_8cpp.html</filename>
@@ -4819,29 +4931,6 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>Shape.hpp</name>
-    <path>dart/dynamics/detail/</path>
-    <filename>d1/d9a/detail_2Shape_8hpp.html</filename>
-    <includes id="d2/df8/Shape_8hpp" name="Shape.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/Shape.hpp</includes>
-    <namespace>dart</namespace>
-    <namespace>dart::dynamics</namespace>
-  </compound>
-  <compound kind="file">
-    <name>Shape.hpp</name>
-    <path>dart/dynamics/</path>
-    <filename>d2/df8/Shape_8hpp.html</filename>
-    <includes id="d8/dbb/Deprecated_8hpp" name="Deprecated.hpp" local="yes" import="no" module="no" objc="no">dart/common/Deprecated.hpp</includes>
-    <includes id="d8/d84/Signal_8hpp" name="Signal.hpp" local="yes" import="no" module="no" objc="no">dart/common/Signal.hpp</includes>
-    <includes id="d7/d5f/Subject_8hpp" name="Subject.hpp" local="yes" import="no" module="no" objc="no">dart/common/Subject.hpp</includes>
-    <includes id="d9/db7/VersionCounter_8hpp" name="VersionCounter.hpp" local="yes" import="no" module="no" objc="no">dart/common/VersionCounter.hpp</includes>
-    <includes id="de/d49/Geometry_8hpp" name="Geometry.hpp" local="yes" import="no" module="no" objc="no">dart/math/Geometry.hpp</includes>
-    <includes id="d2/d9c/dynamics_2SmartPointer_8hpp" name="SmartPointer.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/SmartPointer.hpp</includes>
-    <includes id="d1/d9a/detail_2Shape_8hpp" name="Shape.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/Shape.hpp</includes>
-    <class kind="class">dart::dynamics::Shape</class>
-    <namespace>dart</namespace>
-    <namespace>dart::dynamics</namespace>
-  </compound>
-  <compound kind="file">
     <name>ShapeFrame.cpp</name>
     <path>dart/dynamics/</path>
     <filename>d7/d5e/ShapeFrame_8cpp.html</filename>
@@ -4867,6 +4956,27 @@
     <class kind="class">dart::dynamics::ShapeFrame</class>
     <namespace>dart</namespace>
     <namespace>dart::dynamics</namespace>
+  </compound>
+  <compound kind="file">
+    <name>ShapeNode.cpp</name>
+    <path>dart/dynamics/</path>
+    <filename>d0/df4/dynamics_2ShapeNode_8cpp.html</filename>
+    <includes id="db/de3/dynamics_2ShapeNode_8hpp" name="ShapeNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/ShapeNode.hpp</includes>
+    <includes id="d7/dc6/BodyNode_8hpp" name="BodyNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/BodyNode.hpp</includes>
+    <namespace>dart</namespace>
+    <namespace>dart::dynamics</namespace>
+  </compound>
+  <compound kind="file">
+    <name>ShapeNode.cpp</name>
+    <path>dart/gui/osg/render/</path>
+    <filename>d5/d55/gui_2osg_2render_2ShapeNode_8cpp.html</filename>
+    <includes id="d5/d44/gui_2osg_2render_2ShapeNode_8hpp" name="ShapeNode.hpp" local="yes" import="no" module="no" objc="no">dart/gui/osg/render/ShapeNode.hpp</includes>
+    <includes id="dc/d9b/ShapeFrameNode_8hpp" name="ShapeFrameNode.hpp" local="yes" import="no" module="no" objc="no">dart/gui/osg/ShapeFrameNode.hpp</includes>
+    <includes id="d6/dd8/SimpleFrame_8hpp" name="SimpleFrame.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/SimpleFrame.hpp</includes>
+    <namespace>dart</namespace>
+    <namespace>dart::gui</namespace>
+    <namespace>dart::gui::osg</namespace>
+    <namespace>dart::gui::osg::render</namespace>
   </compound>
   <compound kind="file">
     <name>SharedLibraryIkFast.cpp</name>
@@ -4974,38 +5084,6 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>Skeleton.hpp</name>
-    <path>dart/dynamics/detail/</path>
-    <filename>dd/dfc/detail_2Skeleton_8hpp.html</filename>
-    <includes id="d4/d58/Skeleton_8hpp" name="Skeleton.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/Skeleton.hpp</includes>
-    <namespace>dart</namespace>
-    <namespace>dart::dynamics</namespace>
-  </compound>
-  <compound kind="file">
-    <name>Skeleton.hpp</name>
-    <path>dart/dynamics/</path>
-    <filename>d4/d58/Skeleton_8hpp.html</filename>
-    <includes id="d8/de1/NameManager_8hpp" name="NameManager.hpp" local="yes" import="no" module="no" objc="no">dart/common/NameManager.hpp</includes>
-    <includes id="d9/db7/VersionCounter_8hpp" name="VersionCounter.hpp" local="yes" import="no" module="no" objc="no">dart/common/VersionCounter.hpp</includes>
-    <includes id="d0/d96/MetaSkeleton_8hpp" name="MetaSkeleton.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/MetaSkeleton.hpp</includes>
-    <includes id="d2/d9c/dynamics_2SmartPointer_8hpp" name="SmartPointer.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/SmartPointer.hpp</includes>
-    <includes id="d1/d9a/HierarchicalIK_8hpp" name="HierarchicalIK.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/HierarchicalIK.hpp</includes>
-    <includes id="db/d4a/Joint_8hpp" name="Joint.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/Joint.hpp</includes>
-    <includes id="db/de3/dynamics_2ShapeNode_8hpp" name="ShapeNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/ShapeNode.hpp</includes>
-    <includes id="d3/d78/EndEffector_8hpp" name="EndEffector.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/EndEffector.hpp</includes>
-    <includes id="d8/d1a/Marker_8hpp" name="Marker.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/Marker.hpp</includes>
-    <includes id="d3/db6/BodyNodeAspect_8hpp" name="BodyNodeAspect.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/BodyNodeAspect.hpp</includes>
-    <includes id="df/d86/SpecializedNodeManager_8hpp" name="SpecializedNodeManager.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/SpecializedNodeManager.hpp</includes>
-    <includes id="d9/de0/SkeletonAspect_8hpp" name="SkeletonAspect.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/SkeletonAspect.hpp</includes>
-    <includes id="dd/dfc/detail_2Skeleton_8hpp" name="Skeleton.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/Skeleton.hpp</includes>
-    <class kind="class">dart::dynamics::Skeleton</class>
-    <class kind="struct">dart::dynamics::Skeleton::Configuration</class>
-    <class kind="struct">dart::dynamics::Skeleton::DirtyFlags</class>
-    <class kind="struct">dart::dynamics::Skeleton::DataCache</class>
-    <namespace>dart</namespace>
-    <namespace>dart::dynamics</namespace>
-  </compound>
-  <compound kind="file">
     <name>SoftBodyNode.cpp</name>
     <path>dart/dynamics/</path>
     <filename>d0/d22/SoftBodyNode_8cpp.html</filename>
@@ -5048,31 +5126,6 @@
     <filename>de/d8d/SoftMeshShape_8hpp.html</filename>
     <includes id="d2/df8/Shape_8hpp" name="Shape.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/Shape.hpp</includes>
     <class kind="class">dart::dynamics::SoftMeshShape</class>
-    <namespace>dart</namespace>
-    <namespace>dart::dynamics</namespace>
-  </compound>
-  <compound kind="file">
-    <name>SpecializedNodeManager.hpp</name>
-    <path>dart/dynamics/detail/</path>
-    <filename>d6/d3b/detail_2SpecializedNodeManager_8hpp.html</filename>
-    <includes id="df/d86/SpecializedNodeManager_8hpp" name="SpecializedNodeManager.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/SpecializedNodeManager.hpp</includes>
-    <namespace>dart</namespace>
-    <namespace>dart::dynamics</namespace>
-  </compound>
-  <compound kind="file">
-    <name>SpecializedNodeManager.hpp</name>
-    <path>dart/dynamics/</path>
-    <filename>df/d86/SpecializedNodeManager_8hpp.html</filename>
-    <includes id="d7/d55/Virtual_8hpp" name="Virtual.hpp" local="yes" import="no" module="no" objc="no">dart/common/Virtual.hpp</includes>
-    <includes id="d2/d9a/BasicNodeManager_8hpp" name="BasicNodeManager.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/BasicNodeManager.hpp</includes>
-    <includes id="de/d37/NodeManagerJoiner_8hpp" name="NodeManagerJoiner.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/NodeManagerJoiner.hpp</includes>
-    <includes id="d6/d3b/detail_2SpecializedNodeManager_8hpp" name="SpecializedNodeManager.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/SpecializedNodeManager.hpp</includes>
-    <class kind="class">dart::dynamics::BodyNodeSpecializedFor</class>
-    <class kind="class">dart::dynamics::BodyNodeSpecializedFor&lt; SpecNode &gt;</class>
-    <class kind="class">dart::dynamics::BodyNodeSpecializedFor&lt; SpecNode1, OtherSpecNodes... &gt;</class>
-    <class kind="class">dart::dynamics::SkeletonSpecializedFor</class>
-    <class kind="class">dart::dynamics::SkeletonSpecializedFor&lt; SpecNode &gt;</class>
-    <class kind="class">dart::dynamics::SkeletonSpecializedFor&lt; SpecNode1, OtherSpecNodes... &gt;</class>
     <namespace>dart</namespace>
     <namespace>dart::dynamics</namespace>
   </compound>
@@ -5412,6 +5465,25 @@
     <namespace>dart::gui::glut</namespace>
   </compound>
   <compound kind="file">
+    <name>SoftSimWindow.hpp</name>
+    <path>dart/gui/glut/</path>
+    <filename>d4/dec/glut_2SoftSimWindow_8hpp.html</filename>
+    <includes id="d7/d26/glut_2SimWindow_8hpp" name="SimWindow.hpp" local="yes" import="no" module="no" objc="no">dart/gui/glut/SimWindow.hpp</includes>
+    <class kind="class">dart::gui::glut::SoftSimWindow</class>
+    <namespace>dart</namespace>
+    <namespace>dart::gui</namespace>
+    <namespace>dart::gui::glut</namespace>
+  </compound>
+  <compound kind="file">
+    <name>SoftSimWindow.hpp</name>
+    <path>dart/gui/</path>
+    <filename>dd/dd8/SoftSimWindow_8hpp.html</filename>
+    <includes id="d4/dec/glut_2SoftSimWindow_8hpp" name="SoftSimWindow.hpp" local="yes" import="no" module="no" objc="no">dart/gui/glut/SoftSimWindow.hpp</includes>
+    <includes id="d8/dbb/Deprecated_8hpp" name="Deprecated.hpp" local="yes" import="no" module="no" objc="no">dart/common/Deprecated.hpp</includes>
+    <namespace>dart</namespace>
+    <namespace>dart::gui</namespace>
+  </compound>
+  <compound kind="file">
     <name>Win2D.cpp</name>
     <path>dart/gui/glut/</path>
     <filename>d4/d12/Win2D_8cpp.html</filename>
@@ -5450,6 +5522,26 @@
     <namespace>dart</namespace>
     <namespace>dart::gui</namespace>
     <namespace>dart::gui::glut</namespace>
+  </compound>
+  <compound kind="file">
+    <name>Win3D.hpp</name>
+    <path>dart/gui/glut/</path>
+    <filename>db/d8b/glut_2Win3D_8hpp.html</filename>
+    <includes id="d8/d92/Trackball_8hpp" name="Trackball.hpp" local="yes" import="no" module="no" objc="no">dart/gui/Trackball.hpp</includes>
+    <includes id="d0/de3/Window_8hpp" name="Window.hpp" local="yes" import="no" module="no" objc="no">dart/gui/glut/Window.hpp</includes>
+    <class kind="class">dart::gui::glut::Win3D</class>
+    <namespace>dart</namespace>
+    <namespace>dart::gui</namespace>
+    <namespace>dart::gui::glut</namespace>
+  </compound>
+  <compound kind="file">
+    <name>Win3D.hpp</name>
+    <path>dart/gui/</path>
+    <filename>dc/de0/Win3D_8hpp.html</filename>
+    <includes id="db/d8b/glut_2Win3D_8hpp" name="Win3D.hpp" local="yes" import="no" module="no" objc="no">dart/gui/glut/Win3D.hpp</includes>
+    <includes id="d8/dbb/Deprecated_8hpp" name="Deprecated.hpp" local="yes" import="no" module="no" objc="no">dart/common/Deprecated.hpp</includes>
+    <namespace>dart</namespace>
+    <namespace>dart::gui</namespace>
   </compound>
   <compound kind="file">
     <name>Window.hpp</name>
@@ -6024,59 +6116,6 @@
     <namespace>dart::gui::osg::render</namespace>
   </compound>
   <compound kind="file">
-    <name>ShapeNode.cpp</name>
-    <path>dart/dynamics/</path>
-    <filename>d0/df4/dynamics_2ShapeNode_8cpp.html</filename>
-    <includes id="db/de3/dynamics_2ShapeNode_8hpp" name="ShapeNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/ShapeNode.hpp</includes>
-    <includes id="d7/dc6/BodyNode_8hpp" name="BodyNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/BodyNode.hpp</includes>
-    <namespace>dart</namespace>
-    <namespace>dart::dynamics</namespace>
-  </compound>
-  <compound kind="file">
-    <name>ShapeNode.cpp</name>
-    <path>dart/gui/osg/render/</path>
-    <filename>d5/d55/gui_2osg_2render_2ShapeNode_8cpp.html</filename>
-    <includes id="d5/d44/gui_2osg_2render_2ShapeNode_8hpp" name="ShapeNode.hpp" local="yes" import="no" module="no" objc="no">dart/gui/osg/render/ShapeNode.hpp</includes>
-    <includes id="dc/d9b/ShapeFrameNode_8hpp" name="ShapeFrameNode.hpp" local="yes" import="no" module="no" objc="no">dart/gui/osg/ShapeFrameNode.hpp</includes>
-    <includes id="d6/dd8/SimpleFrame_8hpp" name="SimpleFrame.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/SimpleFrame.hpp</includes>
-    <namespace>dart</namespace>
-    <namespace>dart::gui</namespace>
-    <namespace>dart::gui::osg</namespace>
-    <namespace>dart::gui::osg::render</namespace>
-  </compound>
-  <compound kind="file">
-    <name>ShapeNode.hpp</name>
-    <path>dart/dynamics/detail/</path>
-    <filename>d7/da0/dynamics_2detail_2ShapeNode_8hpp.html</filename>
-    <includes id="db/dd7/ShapeFrame_8hpp" name="ShapeFrame.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/ShapeFrame.hpp</includes>
-    <includes id="d7/dc3/FixedJacobianNode_8hpp" name="FixedJacobianNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/FixedJacobianNode.hpp</includes>
-    <includes id="d8/def/CompositeNode_8hpp" name="CompositeNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/CompositeNode.hpp</includes>
-    <namespace>dart</namespace>
-    <namespace>dart::dynamics</namespace>
-    <namespace>dart::dynamics::detail</namespace>
-  </compound>
-  <compound kind="file">
-    <name>ShapeNode.hpp</name>
-    <path>dart/dynamics/</path>
-    <filename>db/de3/dynamics_2ShapeNode_8hpp.html</filename>
-    <includes id="d8/d84/Signal_8hpp" name="Signal.hpp" local="yes" import="no" module="no" objc="no">dart/common/Signal.hpp</includes>
-    <includes id="d7/da0/dynamics_2detail_2ShapeNode_8hpp" name="ShapeNode.hpp" local="yes" import="no" module="no" objc="no">dart/dynamics/detail/ShapeNode.hpp</includes>
-    <class kind="class">dart::dynamics::ShapeNode</class>
-    <namespace>dart</namespace>
-    <namespace>dart::dynamics</namespace>
-  </compound>
-  <compound kind="file">
-    <name>ShapeNode.hpp</name>
-    <path>dart/gui/osg/render/</path>
-    <filename>d5/d44/gui_2osg_2render_2ShapeNode_8hpp.html</filename>
-    <class kind="class">dart::gui::osg::render::ShapeNode</class>
-    <namespace>dart</namespace>
-    <namespace>dart::dynamics</namespace>
-    <namespace>dart::gui</namespace>
-    <namespace>dart::gui::osg</namespace>
-    <namespace>dart::gui::osg::render</namespace>
-  </compound>
-  <compound kind="file">
     <name>SoftMeshShapeNode.cpp</name>
     <path>dart/gui/osg/render/</path>
     <filename>de/d68/SoftMeshShapeNode_8cpp.html</filename>
@@ -6397,25 +6436,6 @@
     <namespace>dart::gui</namespace>
   </compound>
   <compound kind="file">
-    <name>SoftSimWindow.hpp</name>
-    <path>dart/gui/glut/</path>
-    <filename>d4/dec/glut_2SoftSimWindow_8hpp.html</filename>
-    <includes id="d7/d26/glut_2SimWindow_8hpp" name="SimWindow.hpp" local="yes" import="no" module="no" objc="no">dart/gui/glut/SimWindow.hpp</includes>
-    <class kind="class">dart::gui::glut::SoftSimWindow</class>
-    <namespace>dart</namespace>
-    <namespace>dart::gui</namespace>
-    <namespace>dart::gui::glut</namespace>
-  </compound>
-  <compound kind="file">
-    <name>SoftSimWindow.hpp</name>
-    <path>dart/gui/</path>
-    <filename>dd/dd8/SoftSimWindow_8hpp.html</filename>
-    <includes id="d4/dec/glut_2SoftSimWindow_8hpp" name="SoftSimWindow.hpp" local="yes" import="no" module="no" objc="no">dart/gui/glut/SoftSimWindow.hpp</includes>
-    <includes id="d8/dbb/Deprecated_8hpp" name="Deprecated.hpp" local="yes" import="no" module="no" objc="no">dart/common/Deprecated.hpp</includes>
-    <namespace>dart</namespace>
-    <namespace>dart::gui</namespace>
-  </compound>
-  <compound kind="file">
     <name>Trackball.cpp</name>
     <path>dart/gui/</path>
     <filename>dd/d7f/Trackball_8cpp.html</filename>
@@ -6430,26 +6450,6 @@
     <path>dart/gui/</path>
     <filename>d8/d92/Trackball_8hpp.html</filename>
     <class kind="class">dart::gui::Trackball</class>
-    <namespace>dart</namespace>
-    <namespace>dart::gui</namespace>
-  </compound>
-  <compound kind="file">
-    <name>Win3D.hpp</name>
-    <path>dart/gui/glut/</path>
-    <filename>db/d8b/glut_2Win3D_8hpp.html</filename>
-    <includes id="d8/d92/Trackball_8hpp" name="Trackball.hpp" local="yes" import="no" module="no" objc="no">dart/gui/Trackball.hpp</includes>
-    <includes id="d0/de3/Window_8hpp" name="Window.hpp" local="yes" import="no" module="no" objc="no">dart/gui/glut/Window.hpp</includes>
-    <class kind="class">dart::gui::glut::Win3D</class>
-    <namespace>dart</namespace>
-    <namespace>dart::gui</namespace>
-    <namespace>dart::gui::glut</namespace>
-  </compound>
-  <compound kind="file">
-    <name>Win3D.hpp</name>
-    <path>dart/gui/</path>
-    <filename>dc/de0/Win3D_8hpp.html</filename>
-    <includes id="db/d8b/glut_2Win3D_8hpp" name="Win3D.hpp" local="yes" import="no" module="no" objc="no">dart/gui/glut/Win3D.hpp</includes>
-    <includes id="d8/dbb/Deprecated_8hpp" name="Deprecated.hpp" local="yes" import="no" module="no" objc="no">dart/common/Deprecated.hpp</includes>
     <namespace>dart</namespace>
     <namespace>dart::gui</namespace>
   </compound>
